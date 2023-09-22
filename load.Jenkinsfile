@@ -18,22 +18,22 @@ spec:
   stages {
     stage('Load 01') {
       steps {
-        mockLoad 300
+        mockLoad 60
       }
     }
     stage('Load 02') {
       steps {
-        mockLoad 300
+        mockLoad 60
       }
     }
     stage('Load 03') {
       steps {
-        mockLoad 300
+        mockLoad 60
       }
     }
     stage('Load 04') {
       steps {
-        mockLoad 300
+        mockLoad 60
       }
     }
   }
