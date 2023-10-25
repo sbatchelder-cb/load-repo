@@ -15,7 +15,7 @@ spec:
   stages {
     stage('Load 01') {
       steps {
-        mockLoad 60
+        mockLoad 180
       }
     }
   }
